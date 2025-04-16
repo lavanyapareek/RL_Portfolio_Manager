@@ -111,28 +111,28 @@ The Deep Q-Network consists of:
 
 ### Environment Setup
 
-# Define dataset and parameters
+#### Define dataset and parameters
 datasets = ["SPY", "IWD", "IWC"]  # Assets in portfolio
 n = 20  # Time window size
 
-# Create training environment
+#### Create training environment
 train_dates = ["2010-01-01", "2010-12-30"]
 env = PortfolioEnv(train_dates, datasets, n)
 
 
 ### Model Training
 
-# Build model
+#### Build model
 model = build_model(datasets, env.action_shape)
 
-# Train the model
-# See main training loop in the code for full implementation
+### Train the model
+#### See main training loop in the code for full implementation
 
 
 ### Model Evaluation
 
 
-# Evaluate model on test data
+#### Evaluate model on test data
 test_dates = ["2016-01-01", "2016-12-30"]
 test_env = PortfolioEnv(test_dates, datasets, n)
 results = evaluate_model(model, test_env)
@@ -141,10 +141,10 @@ results = evaluate_model(model, test_env)
 ### Visualizing Results
 
 
-# Visualize portfolio evolution
+#### Visualize portfolio evolution
 portfolio_data = run_and_plot_portfolio_evolution(model, test_env)
 
-# Compare with Buy & Hold strategy
+#### Compare with Buy & Hold strategy
 bh_values = calculate_buy_and_hold(test_env)
 plot_portfolio_evolution_with_bh(portfolio_data, bh_values)
 
