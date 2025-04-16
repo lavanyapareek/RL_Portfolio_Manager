@@ -1,0 +1,62 @@
+Final Model Performance on Test Environment 2018:
+Portfolio Return: -0.25%
+Final Portfolio Value: $997460.99
+Sharpe Ratio (from evaluate_model): -0.0721
+Recomputed Sharpe Ratio: -0.0399
+Sterling Ratio: -0.0512
+
+Final Model Performance on Test Environment 2017:
+Portfolio Return: 29.00%
+Final Portfolio Value: $1290040.28
+Sharpe Ratio (from evaluate_model): 2.3382
+Recomputed Sharpe Ratio: 2.3577
+Sterling Ratio: 3.5826
+
+Final Model Performance on Test Environment 2016:
+Portfolio Return: 26.60%
+Final Portfolio Value: $1265984.91
+Sharpe Ratio (from evaluate_model): 1.6384
+Recomputed Sharpe Ratio: 1.5677
+Sterling Ratio: 2.3054
+
+Final Model Performance on Test Environment 2019:
+Portfolio Return: 37.77%
+Final Portfolio Value: $1377721.76
+Sharpe Ratio (from evaluate_model): 2.4134
+Recomputed Sharpe Ratio: 2.4826
+Sterling Ratio: 3.7087
+
+Year 2016:
+Technical indicators tensor shape: (231, 20, 3, 5)
+Scaled indicators tensor shape: (231, 3, 5, 20)
+  Buy & Hold Return: 11.04%
+  Final Portfolio Value: $1,187,509
+  Sharpe Ratio: 1.201 
+  Sterling Ratio: 1.640
+
+Year 2017:
+Technical indicators tensor shape: (231, 20, 3, 5)
+Scaled indicators tensor shape: (231, 3, 5, 20)
+  Buy & Hold Return: 15.22%
+  Final Portfolio Value: $1,152,639
+  Sharpe Ratio: 1.660
+  Sterling Ratio: 3.840
+
+Year 2018:
+Technical indicators tensor shape: (230, 20, 3, 5)
+Scaled indicators tensor shape: (230, 3, 5, 20)
+  Buy & Hold Return: -8.52%
+  Final Portfolio Value: $9,066,417
+  Sharpe Ratio: -0.615
+  Sterling Ratio: -0.426
+
+Year 2019:
+Technical indicators tensor shape: (230, 20, 3, 5)
+Scaled indicators tensor shape: (230, 3, 5, 20)
+  Buy & Hold Return: 18.48%
+  Final Portfolio Value: $1,255,221
+  Sharpe Ratio: 1.768 
+  Sterling Ratio: 3.625
+
+         
+
